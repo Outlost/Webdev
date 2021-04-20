@@ -1,0 +1,380 @@
+body {
+    width: 1600px;
+    margin: 0px auto;
+    font-family: Roboto;
+    font-style: normal;
+}
+
+/*----------------------------------one block----------------------------------*/
+
+.one {
+    display: flex;
+    width: 1600px;
+    height: 676px;
+    left: 0px;
+    background-image: url(assets/bg-image.png);
+}
+
+.header {
+    position: absolute;
+    height: 95px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+}
+
+.logo {
+    position: absolute;
+    width: 44px;
+    height: 45px;
+    left: calc(50% - 44px/2);
+    top: 25px;
+}
+
+.faq {
+    position: absolute;
+    width: 26px;
+    height: 20px;
+    left: calc(50% - 26px/2 + 272px);
+    top: 25px;
+    color: #FFFFFF;
+    opacity: 0.8;
+}
+
+.projects {
+    position: absolute;
+    width: 52px;
+    height: 20px;
+    left: calc(50% - 52px/2 + 148px);
+    top: 25px;
+    color: #FFFFFF;
+    opacity: 0.8;
+}
+
+.syllabus {
+    position: absolute;
+    width: 53px;
+    height: 20px;
+    left: calc(50% - 53px/2 - 148.5px);
+    top: 25px;
+    color: #FFFFFF;
+    opacity: 0.8;
+}
+
+.about {
+    position: absolute;
+    width: 38px;
+    height: 21px;
+    left: calc(50% - 38px/2 - 279px);
+    top: 25px;
+    color: #FFFFFF;
+    opacity: 0.8;
+}
+
+.yourlife {
+    position: absolute;
+    width: 830px;
+    height: 75px;
+    margin-left: 435px;
+    margin-top: 230px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 75px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 4.5px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.printyourlife {
+    position: absolute;
+    width: 504px;
+    height: 50px;
+    margin-left: 548px;
+    margin-top: 325px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 140%;
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.socials {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 170px;
+    height: 20px;
+    position: absolute;
+    margin-top: 634px;
+    margin-left: 715px;
+    margin-bottom: 90px;
+
+    color: aquamarine;
+}
+
+.mail {
+    width: 20px;
+    height: 20px;
+    left: 0px;
+    top: 0px;
+    }
+
+.facebook {
+    width: 20px;
+    height: 20px;
+    left: 50px;
+    top: 0px;
+    }
+
+.insta {
+    left: 58.82%;
+    right: 29.41%;
+    top: 0%;
+    bottom: 0%;
+    }
+
+.telegram {
+    width: 20px;
+    height: 20px;
+    left: 150px;
+    top: 0px;
+}
+
+/*----------------------------------two block----------------------------------*/
+
+.two {
+    margin: 0px auto;
+    height: 765px;
+    left: 0px;
+    background: #ffffff;
+}
+
+.content_block {
+    display: flex;
+    padding: 1em;
+    width: 407px;
+    height: 233px;
+    margin-left: 269px;
+    margin-top: 295px;
+}
+
+.Rappresentyourlife {
+    position: absolute;
+    width: 367px;
+    height: 57px;
+    left: 0px;
+    top: 0px;
+}
+
+.text-tasks {
+    position: absolute;
+    width: 407px;
+    height: 80px;
+    left: 0px;
+    top: 77px;
+}
+
+#h2-24bold {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: flex-end;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+    color: #373737;
+}
+
+.text {
+    display: flex;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140%;
+
+    color: #4E4E4E;
+}
+
+.content-image-1 {
+    display: flex;
+    width: 407px;
+    height: 582px;
+    margin-left: 924px;
+    margin-top: 120px;
+}
+
+/*----------------------------------three block----------------------------------*/
+
+.three {
+    margin: 0px auto;
+    height: 460px;
+    left: 0px;
+    background: #F5F6F7;
+}
+
+.slider-items {
+    display: flex;
+    width: 894px;
+    height: 244px;
+    margin-left: 706px;
+    margin-top: 120px;
+}
+
+/*----------------------------------four block----------------------------------*/
+
+.four {
+    height: 765px;
+    left: 0px;
+    background: #ffffff;
+}
+
+.content-image-2 {
+    display: flex;
+    width: 407px;
+    height: 590px;
+    margin-left: 280px;
+    margin-top: 105px;
+   
+}
+
+/*----------------------------------five block----------------------------------*/
+
+.five {
+    width: 1600px;
+    height: 520px;
+    left: 0px;
+    background-image: url(assets/pexels-christina-morillo-1181675_1.png);
+}
+
+/*----------------------------------six block----------------------------------*/
+
+.six {
+    width: 1600px;
+    height: 448px;
+    left: 0px;
+    background:  #F5F6F7;
+}
+
+.dowload_it {
+    
+    width: 250px;
+    height: 28px;
+    margin-left: 675px;
+    margin-top: 120px;
+}
+
+/*----------------------------------footer----------------------------------*/
+
+.footer {
+    width: 1600px;
+    height: 167px;
+    left: 0px;
+    background: #000000;
+}
+
+.logo_footer {
+    position: absolute;
+    width: 44px;
+    height: 45px;
+    margin-left: 778px;
+    margin-top: 60px;
+}
+
+.copyright {
+    position: absolute;
+    width: 200px;
+    height: 20px;
+    margin-left: 1270px;
+    margin-top: 73px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140%;
+
+    text-align: right;
+
+    color: #818181;
+}
+
+.nav_items {
+    position: absolute;
+    width: 236px;
+    height: 20px;
+    margin-left: 160px;
+    margin-top: 73px;
+
+}
+
+#body-14-reg {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140%;
+
+    color:  #4E4E4E;;
+}
+
+.credits {
+    position: absolute;
+    width: 45px;
+    height: 20px;
+    left: 0px;
+    top: 0px;
+}
+
+.mnu-items-divider {
+    position: absolute;
+    width: 8px;
+    height: 0px;
+    margin-left: 65px;
+    margin-top: 15px;
+
+    border: 1px solid #4E4E4E;
+    transform: rotate(-90deg);
+}
+
+.privacy {
+    position: absolute;
+    width: 46px;
+    height: 20px;
+    margin-left: 85px;
+    margin-top: 0px;
+}
+
+.mnu-items-divider1 {
+    position: absolute;
+    width: 8px;
+    height: 0px;
+    margin-left: 151px;
+    margin-top: 15px;
+
+    border: 1px solid #4E4E4E;
+    transform: rotate(-90deg);
+}
+
+.our-teams {
+    position: absolute;
+    width: 65px;
+    height: 20px;
+    margin-left: 171px;
+    margin-top: 0px;
+}
